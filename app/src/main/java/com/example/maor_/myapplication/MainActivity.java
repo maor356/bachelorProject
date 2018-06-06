@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     ToggleButton toggleGyro;
     ToggleButton toggleLight;
     ToggleButton toggleProx;
+    ToggleButton toggleTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
