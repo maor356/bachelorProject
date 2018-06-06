@@ -1,1 +1,2 @@
-# bachelorProject
+# Bachelor Project
+## by Maor Ben Zvi
