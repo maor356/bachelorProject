@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textViewName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACC"
+        android:textOff="ACC-OFF"
+        android:textOn="ACC-ON"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="400"
+        tools:text="ACC" />
+
+    <ToggleButton
+        android:id="@+id/toggleGyro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro"
+        android:textOff="Gyro-OFF"
+        android:textOn="Gyro-ON"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="500" />
+
+    <ToggleButton
+        android:id="@+id/toggleLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light"
+        android:textOff="Light-OFF"
+        android:textOn="Light-ONN"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="600" />
+
+    <ToggleButton
+        android:id="@+id/toggleProx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prox"
+        android:textOff="Prox-OFF"
+        android:textOn="Prox-on"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="700" />
+
+
+</LinearLayout>
